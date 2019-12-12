@@ -19,7 +19,7 @@ module.exports = {
     "blazor.extensions.signalr": "./src/InitializeSignalR.ts"
   },
   output: {
-    path: path.join(__dirname, "/dist"),
+    path: path.join(__dirname, "/wwwroot"),
     filename: "[name].js"
   }
 };

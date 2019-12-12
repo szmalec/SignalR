@@ -108,6 +108,7 @@ namespace Blazor.Extensions.SignalR.Test.Server
             app.UseAuthentication();
             app.UseAuthorization();
 
+            app.UseStaticFiles();
             app.UseClientSideBlazorFiles<Client.Startup>();
 
             app.UseEndpoints(endpoints =>
